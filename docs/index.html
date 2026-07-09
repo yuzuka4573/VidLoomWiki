@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>VidLoom Wiki</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="VidLoom Wiki - あなたの動画を作る手助けをする機織り機">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <!-- Docsifyテーマ (Vue) -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- ダークモードプラグイン用スタイル -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css" title="docsify-darklight-theme" type="text/css" />
+  <style>
+    /* 日本語フォントなどの美化 */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans JP", sans-serif;
+    }
+    .sidebar {
+      font-size: 15px;
+    }
+    /* 画像の表示スタイル調整 (中央寄せ・最大幅制限・装飾) */
+    .markdown-section img {
+      display: block;
+      margin: 1.5rem auto;
+      max-width: 90%;
+      height: auto;
+      border-radius: 6px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    /* ダークモード時の画像枠線調整 */
+    body.dark .markdown-section img {
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <div id="app">読み込み中...</div>
+  <script>
+    window.$docsify = {
+      name: 'VidLoom Wiki',
+      repo: 'yuzuka4573/VidLoomWiki',
+      loadSidebar: true,
+      subMaxLevel: 3,
+      auto2top: true,
+      homepage: 'introduction.md', // ホームページに introduction.md を指定
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: '検索する...',
+        noData: '結果が見つかりません',
+        depth: 6
+      },
+      darklightTheme: {
+        siteFont: "PT Sans",
+        defaultTheme: 'dark',
+        codeFontFamily: 'Roboto Mono, Monaco, courier, monospace',
+        bodyFontSize: '15px',
+        dark: {
+          accent: '#42b983',
+          toogleBackground: '#ffffff',
+          background: '#0d1117',
+          textColor: '#c9d1d9',
+          codeColor: '#ff7b72',
+          codeBackground: '#161b22',
+          sidebarSublink: '#8b949e',
+          themeColor: '#58a6ff'
+        },
+        light: {
+          accent: '#42b983',
+          toogleBackground: '#090a0b',
+          background: '#ffffff',
+          textColor: '#24292e',
+          codeColor: '#d73a49',
+          codeBackground: '#f6f8fa',
+          sidebarSublink: '#586069',
+          themeColor: '#0366d6'
+        }
+      }
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- 検索プラグイン -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- コードコピーボタン -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- ダークモード切り替えプラグイン -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js" type="text/javascript"></script>
+</body>
+</html>
