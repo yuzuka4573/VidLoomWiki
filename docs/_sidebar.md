@@ -12,3 +12,4 @@
 - 限定機能
   - [ローカルTTS連携](localTTSUse.md)
   - [ローカルレンダリング](localRendering.md)
+  - [単語辞書機能](dictionary.md)
