@@ -3,7 +3,7 @@ VidLoomはアカウントを作らなければ何も始まらない!
 
 ## 作成方法
 1. ログインページに飛ぶ
-    https://vidloom.com/login
+    https://vid-loom.com/login
 
     ![ログイン画面](./image/loginScreen.webp)
 
@@ -15,7 +15,7 @@ VidLoomはアカウントを作らなければ何も始まらない!
 
 ![メアドパスワードで登録](./image/mailPasswordCreate.webp)
 
-- Youtubeアカウント連携で登録の場合
+- Youtubeアカウント連携で登録の場合(現在受付停止中)
 はじめにYoutube(Google)アカウントの認証をする
 
 ![Youtube認証](./image/youtubeAuth.webp)
