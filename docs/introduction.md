@@ -8,21 +8,27 @@ PC (Windows,MacOS,Linux)で動くWebブラウザ
 現状はChromeとFirefoxで動作確認が取れている  
   
 ## 対応素材
-- 画像
-    - jpeg
-    - png
-    - gif
+VidLoomでは以下の多彩な素材フォーマットに対応しています。
+
+- **画像**:
+    - **PNG** (`.png`, `.apng`)
+    - **JPEG / JPG** (`.jpeg`, `.jpg`)
+    - **GIF** (`.gif`) - *アニメーションGIF対応（動画内での自動ループ再生対応）*
+    - **WebP** (`.webp`)
+    - **SVG** (`.svg`)
+    - **BMP / ICO / AVIF** (`.bmp`, `.ico`, `.avif`)
   
-- 音声
-    - mp3
-    - mp4
-    - wav
-    - ogg
+- **音声**:
+    - **MP3** (`.mp3`)
+    - **WAV** (`.wav`)
+    - **OGG** (`.ogg`)
+    - **M4A / AAC** (`.m4a`, `.aac`)
+    - **MP4音声** (`.mp4`)
   
-- フォント
-    - ttf
-    - otf
-    - woff
+- **フォント**:
+    - **TTF** (`.ttf`)
+    - **OTF** (`.otf`)
+    - **WOFF / WOFF2** (`.woff`, `.woff2`)
   
 ## 便利機能
 - LocalTTS連携
