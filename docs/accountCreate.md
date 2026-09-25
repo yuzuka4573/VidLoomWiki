@@ -3,7 +3,7 @@ VidLoomはアカウントを作らなければ何も始まらない!
 
 ## 作成方法
 1. ログインページに飛ぶ
-    https://vidloom.com/login
+    https://vid-loom.com/login
 
     ![ログイン画面](./image/loginScreen.webp)
 
