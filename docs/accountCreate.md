@@ -15,15 +15,6 @@ VidLoomはアカウントを作らなければ何も始まらない!
 
 ![メアドパスワードで登録](./image/mailPasswordCreate.webp)
 
-- Youtubeアカウント連携で登録の場合
-はじめにYoutube(Google)アカウントの認証をする
-
-![Youtube認証](./image/youtubeAuth.webp)
-
-Youtubeチャンネルでの登録条件に当てはまっていれば、メールパスワードでの登録と同じ様にユーザー名、パスワードを入力して"アカウント作成"
-
-![Youtubeで登録](./image/userInfoCreate.webp)
-
 4. プロモコードについて
 アカウントの作成の段階で、プロモコードを要求される場合があります  
 
